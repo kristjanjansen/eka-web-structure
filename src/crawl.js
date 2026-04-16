@@ -3,7 +3,94 @@ import TurndownService from 'turndown';
 import { mkdirSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { normalizeUrl, isInternalUrl, isEstonianUrl, classifyUrl, urlToFilename } from './url-utils.js';
+
+// ─── URL utilities (inlined) ───
+
+const SITE_HOSTNAME = 'www.artun.ee';
+const SITE_HOSTNAME_ALT = 'artun.ee';
+
+const SKIP_PATHS = [
+  '/wp-admin', '/wp-login.php', '/wp-json', '/feed',
+  '/wp-content/uploads', '/wp-includes', '/xmlrpc.php',
+  '/wp-cron.php', '/wp-trackback.php',
+];
+
+const SKIP_EXTENSIONS = new Set([
+  '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+  '.zip', '.rar', '.gz', '.tar',
+  '.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.ico',
+  '.mp3', '.mp4', '.avi', '.mov', '.wmv',
+  '.css', '.js', '.xml', '.rss', '.atom',
+]);
+
+const TRACKING_PARAMS = new Set([
+  'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
+  'fbclid', 'gclid', 'mc_cid', 'mc_eid',
+]);
+
+function normalizeUrl(urlString, base) {
+  try {
+    const url = new URL(urlString, base);
+    url.protocol = 'https:';
+    if (url.hostname === SITE_HOSTNAME_ALT) url.hostname = SITE_HOSTNAME;
+    url.hostname = url.hostname.toLowerCase();
+    url.hash = '';
+    for (const param of TRACKING_PARAMS) url.searchParams.delete(param);
+    url.searchParams.sort();
+    let path = url.pathname;
+    if (path.length > 1 && path.endsWith('/')) path = path.slice(0, -1);
+    url.pathname = path;
+    return url.toString();
+  } catch { return null; }
+}
+
+function isInternalUrl(urlString) {
+  try {
+    const host = new URL(urlString).hostname.toLowerCase();
+    return host === SITE_HOSTNAME || host === SITE_HOSTNAME_ALT;
+  } catch { return false; }
+}
+
+function isEstonianUrl(urlString) {
+  try {
+    const path = new URL(urlString).pathname.toLowerCase();
+    return path === '/' || path === '/et' || path.startsWith('/et/');
+  } catch { return false; }
+}
+
+function shouldSkipUrl(urlString) {
+  try {
+    const url = new URL(urlString);
+    if (!url.protocol.startsWith('http')) return true;
+    const path = url.pathname.toLowerCase();
+    for (const skip of SKIP_PATHS) { if (path.startsWith(skip)) return true; }
+    const lastSegment = path.split('/').pop();
+    const dotIdx = lastSegment.lastIndexOf('.');
+    if (dotIdx > 0 && SKIP_EXTENSIONS.has(lastSegment.slice(dotIdx).toLowerCase())) return true;
+    const pageMatch = path.match(/\/page\/(\d+)/);
+    if (pageMatch && parseInt(pageMatch[1]) > 5) return true;
+    return false;
+  } catch { return true; }
+}
+
+function classifyUrl(href, base) {
+  const trimmed = href.trim();
+  if (/^(mailto:|tel:|javascript:|#$|#[^/])/.test(trimmed)) return { type: 'skip', normalized: null };
+  const normalized = normalizeUrl(trimmed, base);
+  if (!normalized) return { type: 'skip', normalized: null };
+  if (!isInternalUrl(normalized)) return { type: 'external', normalized };
+  if (shouldSkipUrl(normalized)) return { type: 'skip', normalized };
+  if (isEstonianUrl(normalized)) return { type: 'internal-et', normalized };
+  return { type: 'internal-other', normalized };
+}
+
+function urlToFilename(url, index) {
+  try {
+    const u = new URL(url);
+    const slug = u.pathname.replace(/^\//, '').replace(/\/$/g, '').replace(/[^a-z0-9]+/gi, '-').replace(/-+/g, '-').replace(/^-|-$/g, '') || 'root';
+    return String(index).padStart(3, '0') + '-' + slug + '.md';
+  } catch { return String(index).padStart(3, '0') + '-unknown.md'; }
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
@@ -136,7 +223,7 @@ async function fetchPage(url) {
 function buildPageRecord(url, finalUrl, parsed, depth, contentDir, pageIdx) {
   let contentFile = null;
   if (parsed.markdown) {
-    const mdFilename = urlToFilename(finalUrl, pageIdx).replace(/\.jpg$/, '.md');
+    const mdFilename = urlToFilename(finalUrl, pageIdx);
     contentFile = `content/${mdFilename}`;
     const frontmatter = `---\ntitle: ${JSON.stringify(parsed.title)}\nurl: ${finalUrl}\ndepth: ${depth}\ndate: ${new Date().toISOString().slice(0, 10)}\n---\n\n`;
     writeFileSync(join(contentDir, mdFilename), frontmatter + parsed.markdown);

@@ -141,8 +141,8 @@
     border: none;
     color: #000;
     border-radius: 0;
-    width: 16px; height: 16px;
-    font-size: 10px;
+    width: 28px; height: 28px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
     display: flex;
@@ -153,41 +153,9 @@
   }
   #controls button + button { border-top: 1px solid #ccc; }
 
-  #tabs {
-    position: fixed;
-    top: 8px; left: 8px;
-    z-index: 10;
-    display: flex;
-    gap: 0;
-    pointer-events: auto;
-  }
-  #tabs button {
-    background: #fff;
-    border: none;
-    color: #999;
-    border-radius: 0;
-    height: 16px;
-    padding: 0 6px;
-    font-size: 8px;
-    font-weight: 400;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'ITCFranklinGothic', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  #tabs button + button { border-left: 1px solid #ccc; }
-  #tabs button.active { color: #000; }
 </style>
 </head>
 <body>
-
-<div id="tabs">
-  <button id="tab-grid" class="active">Grid</button>
-  <button id="tab-length">Length</button>
-</div>
 
 <canvas id="canvas-bg"></canvas>
 <canvas id="clusters-canvas"></canvas>
@@ -469,221 +437,8 @@ function layoutClusters() {
 
 layoutClusters();
 
-// Save grid positions
-nodes.forEach(n => { n.gridX = n.x; n.gridY = n.y; });
-const gridLabelBounds = allLabelBounds.slice();
-const gridClusterBounds = new Map(window._clusterBounds);
-
-// === Length layout ===
-// Compute height scale: map estimatedHeight to pixel range
-const MIN_LEN_H = 37; // 66px width * 9/16 ≈ 37px (16:9 minimum)
-const MAX_LEN_H = 200;
-const heights = nodes.map(n => n.estimatedHeight || 400);
-const minH = Math.min(...heights);
-const maxH = Math.max(...heights);
-
-function scaledHeight(est) {
-  if (maxH === minH) return (MIN_LEN_H + MAX_LEN_H) / 2;
-  return MIN_LEN_H + ((est - minH) / (maxH - minH)) * (MAX_LEN_H - MIN_LEN_H);
-}
-
-nodes.forEach(n => { n.lenH = scaledHeight(n.estimatedHeight || 400); });
-
-const lengthLabelBounds = [];
-
-function layoutLength() {
-  const CLUSTER_PAD = 10;
-  const CLUSTER_TITLE_H = 30;
-  const L2_TITLE_H = 14;
-  const L3_TITLE_H = 10;
-  const L2_GAP = 12;
-  const L3_GAP = 6;
-  const L2_PAD = 4;
-  const L3_PAD = 2;
-  const CLUSTER_GAP = 80;
-  const cellW = NODE_W + NODE_PAD;
-
-  lengthLabelBounds.length = 0;
-
-  // Grid with variable row heights based on tallest node per row
-  function gridLayout(nodesArr, pad) {
-    const cols = Math.max(1, Math.ceil(Math.sqrt(nodesArr.length)));
-    const rows = Math.ceil(nodesArr.length / cols);
-    // Compute row heights (max lenH in each row)
-    const rowHeights = [];
-    for (let r = 0; r < rows; r++) {
-      let maxH = 0;
-      for (let c = 0; c < cols; c++) {
-        const idx = r * cols + c;
-        if (idx < nodesArr.length) maxH = Math.max(maxH, nodesArr[idx].lenH);
-      }
-      rowHeights.push(maxH);
-    }
-    // Compute row Y offsets
-    const rowY = [0];
-    for (let r = 1; r < rows; r++) {
-      rowY.push(rowY[r - 1] + rowHeights[r - 1] + NODE_PAD);
-    }
-    // Position nodes
-    nodesArr.forEach((n, i) => {
-      const col = i % cols;
-      const row = Math.floor(i / cols);
-      n._lenX = pad + col * cellW;
-      n._lenY = pad + rowY[row];
-    });
-    const totalH = rowY.length ? rowY[rows - 1] + rowHeights[rows - 1] : 0;
-    const totalW = cols * cellW - NODE_PAD;
-    return { w: totalW + pad * 2, h: totalH + pad * 2, cols };
-  }
-
-  // L3
-  function layoutL3Len(nodesArr) {
-    const r = gridLayout(nodesArr, L3_PAD);
-    return { nodes: nodesArr, w: r.w, h: r.h + L3_TITLE_H, cols: r.cols };
-  }
-
-  // L2
-  function layoutL2Len(sub) {
-    const s2Names = Object.keys(sub.subs).sort((a, b) => {
-      if (a === '_root') return -1; if (b === '_root') return 1;
-      const al = Array.isArray(sub.subs[a]) ? sub.subs[a].length : 0;
-      const bl = Array.isArray(sub.subs[b]) ? sub.subs[b].length : 0;
-      return bl - al;
-    });
-
-    let maxW = 0, totalH = 0;
-    const l3Layouts = s2Names.map(s2Name => {
-      const l = layoutL3Len(sub.subs[s2Name]);
-      l.subName = s2Name;
-      l.offY = totalH;
-      maxW = Math.max(maxW, l.w);
-      totalH += l.h + L3_GAP;
-      return l;
-    });
-    totalH -= L3_GAP;
-
-    return { l3s: l3Layouts, directNodes: null, w: maxW + L2_PAD * 2, h: totalH + L2_PAD * 2 + L2_TITLE_H };
-  }
-
-  // L1
-  function layoutL1Len(cg) {
-    const subNames = Object.keys(cg.subs).sort((a, b) => {
-      if (a === '_root') return -1; if (b === '_root') return 1;
-      return cg.subs[b].nodes.length - cg.subs[a].nodes.length;
-    });
-
-    const subLayouts = subNames.map(subName => {
-      const l = layoutL2Len(cg.subs[subName]);
-      l.subName = subName;
-      return l;
-    });
-
-    // Pack subclusters in rows
-    const maxW = Math.max(400, Math.sqrt(subLayouts.reduce((s, r) => s + r.w * r.h, 0)) * 1.4);
-    let sx = 0, sy = 0, rowMaxH = 0;
-    subLayouts.forEach(sl => {
-      if (sx + sl.w > maxW && sx > 0) {
-        sx = 0; sy += rowMaxH + L2_GAP; rowMaxH = 0;
-      }
-      sl.offX = sx; sl.offY = sy;
-      sx += sl.w + L2_GAP;
-      rowMaxH = Math.max(rowMaxH, sl.h);
-    });
-    const totalW = Math.max(...subLayouts.map(s => s.offX + s.w));
-    const totalH = Math.max(...subLayouts.map(s => s.offY + s.h));
-
-    return { subs: subLayouts, w: totalW + CLUSTER_PAD * 2, h: totalH + CLUSTER_PAD * 2 + CLUSTER_TITLE_H };
-  }
-
-  const clusterLayouts = clusterNames.map(name => ({ name, ...layoutL1Len(clusterGroups[name]) }));
-
-  // Pack clusters
-  const avalehtLayout = clusterLayouts.find(r => r.name === 'Avaleht');
-  const restLayouts = clusterLayouts.filter(r => r.name !== 'Avaleht');
-  restLayouts.sort((a, b) => b.h - a.h || b.w - a.w);
-
-  const positions = new Map();
-  let shelfY = 0;
-
-  if (avalehtLayout) {
-    positions.set(avalehtLayout.name, { x: 0, y: 0, layout: avalehtLayout });
-    shelfY = avalehtLayout.h + CLUSTER_GAP;
-  }
-
-  let shelfX = 0, shelfMaxH = 0;
-  const MAX_ROW_W = Math.max(2000, Math.sqrt(restLayouts.reduce((s, r) => s + r.w * r.h, 0)) * 1.5);
-
-  restLayouts.forEach(layout => {
-    if (shelfX + layout.w > MAX_ROW_W && shelfX > 0) {
-      shelfX = 0; shelfY += shelfMaxH + CLUSTER_GAP; shelfMaxH = 0;
-    }
-    positions.set(layout.name, { x: shelfX, y: shelfY, layout });
-    shelfX += layout.w + CLUSTER_GAP;
-    shelfMaxH = Math.max(shelfMaxH, layout.h);
-  });
-
-  // Center
-  let totalMinX = Infinity, totalMaxX = -Infinity, totalMinY = Infinity, totalMaxY = -Infinity;
-  positions.forEach(p => {
-    totalMinX = Math.min(totalMinX, p.x);
-    totalMaxX = Math.max(totalMaxX, p.x + p.layout.w);
-    totalMinY = Math.min(totalMinY, p.y);
-    totalMaxY = Math.max(totalMaxY, p.y + p.layout.h);
-  });
-  const offX = -(totalMinX + totalMaxX) / 2;
-  const offY = -(totalMinY + totalMaxY) / 2;
-
-  // Position nodes
-  positions.forEach((pos, clusterName) => {
-    const layout = pos.layout;
-    layout.subs.forEach(sub => {
-      const l2x = pos.x + CLUSTER_PAD + (sub.offX || 0) + offX;
-      const l2y = pos.y + CLUSTER_TITLE_H + CLUSTER_PAD + (sub.offY || 0) + offY;
-
-      const l2count = clusterGroups[clusterName].subs[sub.subName].nodes.length;
-      lengthLabelBounds.push({ level: 2, label: sub.subName === '_root' ? clusterName : sub.subName, count: l2count, x: l2x, y: l2y, w: sub.w, h: sub.h });
-
-      if (sub.directNodes) {
-        sub.directNodes.forEach(n => {
-          n.lenX = l2x + n._lenX;
-          n.lenY = l2y + L2_TITLE_H + n._lenY;
-        });
-      } else if (sub.l3s) {
-        sub.l3s.forEach(l3 => {
-          const l3x = l2x + L2_PAD;
-          const l3y = l2y + L2_TITLE_H + L2_PAD + l3.offY;
-
-          const l3count = l3.nodes.length;
-          lengthLabelBounds.push({ level: 3, label: l3.subName === '_root' ? (sub.subName === '_root' ? clusterName : sub.subName) : l3.subName, count: l3count, x: l3x, y: l3y, w: l3.w, h: l3.h });
-
-          l3.nodes.forEach(n => {
-            n.lenX = l3x + n._lenX;
-            n.lenY = l3y + L3_TITLE_H + n._lenY;
-          });
-        });
-      }
-    });
-  });
-
-  window._lenClusterBounds = new Map();
-  positions.forEach((pos, name) => {
-    window._lenClusterBounds.set(name, { x: pos.x + offX, y: pos.y + offY, w: pos.layout.w, h: pos.layout.h });
-  });
-}
-
-layoutLength();
-nodes.forEach(n => { n.lenX = n.lenX || n.gridX; n.lenY = n.lenY || n.gridY; });
-
-// === View mode ===
-let viewMode = 'grid'; // 'grid' | 'length'
-
 function getClusterBounds(name) {
-  const map = viewMode === 'grid' ? gridClusterBounds : window._lenClusterBounds;
-  return map.get(name) || null;
-}
-
-function getActiveLabelBounds() {
-  return viewMode === 'grid' ? gridLabelBounds : lengthLabelBounds;
+  return window._clusterBounds.get(name) || null;
 }
 
 // === DOM ===
@@ -711,7 +466,13 @@ const nodeEls = nodes.map(n => {
   const div = document.createElement('div');
   div.className = 'node';
   const desc = n.meta?.description || '';
-  const bc = (n.breadcrumbs && n.breadcrumbs.length > 0) ? n.breadcrumbs.join(' > ') : '';
+  // Skip breadcrumb parts already shown as cluster/subcluster titles
+  const bcFull = n.breadcrumbs || [];
+  const skipLevels = n.orphan ? 0 : Math.min(bcFull.length, 3); // cluster(1) + sub(1) + sub2(1)
+  const bcTail = bcFull.slice(skipLevels);
+  // Also remove last crumb if it matches the page title
+  if (bcTail.length > 0 && shortTitle(n.title).toLowerCase().startsWith(bcTail[bcTail.length - 1].toLowerCase())) bcTail.pop();
+  const bc = bcTail.join(' > ');
   div.innerHTML =
     '<div class="node-card">' +
       (bc ? '<div class="node-bc">' + escHtml(bc) + '</div>' : '') +
@@ -790,7 +551,7 @@ function render() {
   });
 
   // Subcluster + sub-subcluster labels
-  getActiveLabelBounds().forEach(lb => {
+  allLabelBounds.forEach(lb => {
     const sx = (lb.x + panX) * scale + cx;
     const sy = (lb.y + panY) * scale + cy;
     const size = (lb.level === 2 ? 8 : 5.5) * scale;
@@ -809,18 +570,12 @@ function render() {
   });
 
   // Position nodes
-  const isLength = viewMode === 'length';
   nodes.forEach((n, i) => {
     const el = nodeEls[i];
-    const nx = isLength ? n.lenX : n.gridX;
-    const ny = isLength ? n.lenY : n.gridY;
-    const x = (nx + panX) * scale + cx;
-    const y = (ny + panY) * scale + cy;
+    const x = (n.x + panX) * scale + cx;
+    const y = (n.y + panY) * scale + cy;
     el.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + scale + ')';
     el.style.transformOrigin = '0 0';
-    // Adjust card height in length mode
-    const card = el.querySelector('.node-card');
-    if (card) card.style.height = isLength ? n.lenH + 'px' : '66px';
   });
 }
 
@@ -832,13 +587,9 @@ function hitTest(clientX, clientY) {
   const cx = w / 2, cy = h / 2;
   const wx = (clientX - cx) / scale - panX;
   const wy = (clientY - cy) / scale - panY;
-  const isLen = viewMode === 'length';
   for (let i = nodes.length - 1; i >= 0; i--) {
     const n = nodes[i];
-    const nx = isLen ? n.lenX : n.gridX;
-    const ny = isLen ? n.lenY : n.gridY;
-    const nh = isLen ? n.lenH : NODE_H;
-    if (wx >= nx && wx <= nx + NODE_W && wy >= ny && wy <= ny + nh) return i;
+    if (wx >= n.x && wx <= n.x + NODE_W && wy >= n.y && wy <= n.y + NODE_H) return i;
   }
   return -1;
 }
@@ -930,29 +681,8 @@ document.getElementById('btn-fit').addEventListener('click', () => {
   render();
 });
 
-// === Tab switching ===
-function fitAll() { document.getElementById('btn-fit').click(); }
-
-document.getElementById('tab-grid').addEventListener('click', () => {
-  if (viewMode === 'grid') return;
-  viewMode = 'grid';
-  document.getElementById('tab-grid').classList.add('active');
-  document.getElementById('tab-length').classList.remove('active');
-  render();
-  fitAll();
-});
-
-document.getElementById('tab-length').addEventListener('click', () => {
-  if (viewMode === 'length') return;
-  viewMode = 'length';
-  document.getElementById('tab-length').classList.add('active');
-  document.getElementById('tab-grid').classList.remove('active');
-  render();
-  fitAll();
-});
-
 resize();
-fitAll();
+document.getElementById('btn-fit').click();
 </script>
 </body>
 </html>
