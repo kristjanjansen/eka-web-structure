@@ -1,0 +1,14 @@
+{
+  "name": "eka-web-structure",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "crawl": "node src/crawl-structure.js",
+    "vis": "node src/index.js --skip-structure"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.4"
+  }
+}
