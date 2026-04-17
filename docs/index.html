@@ -354,9 +354,10 @@ function layoutClusters() {
 
   const clusterRects = clusterNames.map(name => ({ name, ...layoutL1(clusterGroups[name]) }));
 
-  // Pack clusters
+  // Pack clusters: Avaleht top, Orvud far right, rest in rows
   const avalehtRect = clusterRects.find(r => r.name === 'Avaleht');
-  const rest = clusterRects.filter(r => r.name !== 'Avaleht');
+  const orvudRect = clusterRects.find(r => r.name === 'Orvud');
+  const rest = clusterRects.filter(r => r.name !== 'Avaleht' && r.name !== 'Orvud');
   rest.sort((a, b) => b.h - a.h || b.w - a.w);
 
   const positions = new Map();
@@ -378,6 +379,13 @@ function layoutClusters() {
     shelfX += rect.w + CLUSTER_GAP;
     shelfMaxH = Math.max(shelfMaxH, rect.h);
   });
+
+  // Place Orvud far right, top-aligned
+  if (orvudRect) {
+    let maxX = 0;
+    positions.forEach(p => { maxX = Math.max(maxX, p.x + p.rect.w); });
+    positions.set(orvudRect.name, { x: maxX + CLUSTER_GAP * 2, y: 0, rect: orvudRect });
+  }
 
   // Center
   let totalMinX = Infinity, totalMaxX = -Infinity, totalMinY = Infinity, totalMaxY = -Infinity;
