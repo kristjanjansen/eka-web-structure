@@ -515,10 +515,6 @@ function escHtml(s) {
 
 
 // === Render ===
-let rafId = 0;
-function scheduleRender() {
-  if (!rafId) rafId = requestAnimationFrame(() => { rafId = 0; render(); });
-}
 function render() {
   const w = window.innerWidth, h = window.innerHeight;
   const cx = w / 2, cy = h / 2;
@@ -626,7 +622,7 @@ interLayer.addEventListener('mousemove', e => {
   if (isDragging) {
     panX = panStartX + (e.clientX - dragStartX) / scale;
     panY = panStartY + (e.clientY - dragStartY) / scale;
-    scheduleRender();
+    render();
     if (hoveredIdx >= 0) { nodeEls[hoveredIdx].classList.remove('hovered'); hoveredIdx = -1; }
     return;
   }
@@ -690,7 +686,7 @@ interLayer.addEventListener('touchmove', e => {
     const t = e.touches[0];
     panX = panStartX + (t.clientX - dragStartX) / scale;
     panY = panStartY + (t.clientY - dragStartY) / scale;
-    scheduleRender();
+    render();
     if (hoveredIdx >= 0) { nodeEls[hoveredIdx].classList.remove('hovered'); hoveredIdx = -1; }
   } else if (e.touches.length === 2) {
     const t0 = e.touches[0], t1 = e.touches[1];
@@ -710,7 +706,7 @@ interLayer.addEventListener('touchmove', e => {
       // Also pan with the midpoint movement
       panX += (mid.x - lastTouchMid.x) / scale;
       panY += (mid.y - lastTouchMid.y) / scale;
-      scheduleRender();
+      render();
     }
     lastTouchDist = dist;
     lastTouchMid = mid;
@@ -766,7 +762,7 @@ interLayer.addEventListener('wheel', e => {
   scale = newScale;
   panX = (mx - cx) / scale - wx;
   panY = (my - cy) / scale - wy;
-  scheduleRender();
+  render();
 }, { passive: false });
 
 document.getElementById('btn-zoom-in').addEventListener('click', () => {
