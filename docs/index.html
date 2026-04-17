@@ -413,15 +413,20 @@ function layoutClusters() {
       const l2x = pos.x + CLUSTER_PAD + sp.x + offX;
       const l2y = pos.y + CLUSTER_TITLE_H + CLUSTER_PAD + sp.y + offY;
 
+      const l2label = sp.subName === '_root' ? clusterName : sp.subName;
       const l2count = clusterGroups[clusterName].subs[sp.subName].nodes.length;
-      allLabelBounds.push({ level: 2, label: sp.subName === '_root' ? clusterName : sp.subName, count: l2count, x: l2x, y: l2y, w: sp.w, h: sp.h });
+      allLabelBounds.push({ level: 2, label: l2label, count: l2count, x: l2x, y: l2y, w: sp.w, h: sp.h });
 
       if (sp.l3s) {
         sp.l3s.forEach(l3 => {
           const l3x = l2x + L2_PAD + l3.x;
           const l3y = l2y + L2_TITLE_H + L2_PAD + l3.y;
           const l3count = l3.nodes.length;
-          allLabelBounds.push({ level: 3, label: l3.subName === '_root' ? (sp.subName === '_root' ? clusterName : sp.subName) : l3.subName, count: l3count, x: l3x, y: l3y, w: l3.w, h: l3.h });
+          const l3label = l3.subName === '_root' ? l2label : l3.subName;
+          // Skip L3 label if it duplicates its parent L2
+          if (l3label !== l2label) {
+            allLabelBounds.push({ level: 3, label: l3label, count: l3count, x: l3x, y: l3y, w: l3.w, h: l3.h });
+          }
 
           placeNodes(l3.nodes, l3.cols, l3x + L3_PAD, l3y + L3_TITLE_H + L3_PAD);
         });
