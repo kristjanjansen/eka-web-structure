@@ -2,10 +2,10 @@
 title: "Maria Izabella Lehtsaar “Armastavates kätes” — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/kalender/maria-izabella-lehtsaar-in-loving-hands
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
-[Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Eesti](https://www.artun.ee/et/?post_type=eka_calendar "Go to the Eesti Keel archives.")[Maria Izabella Lehtsaar “Armastavates kätes”](https://www.artun.ee/et/kalender/maria-izabella-lehtsaar-in-loving-hands/ "Mine Maria Izabella Lehtsaar “Armastavates kätes”.")
+[Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Erialad](https://www.artun.ee/et/kategooria/erialad/?post_type=eka_calendar "Mine rubriigi Erialad arhiivi.")[Vabade kunstide teaduskond](https://www.artun.ee/et/kategooria/erialad/vabade-kunstide-teaduskond/?post_type=eka_calendar "Mine rubriigi Vabade kunstide teaduskond arhiivi.")[Maria Izabella Lehtsaar “Armastavates kätes”](https://www.artun.ee/et/kalender/maria-izabella-lehtsaar-in-loving-hands/ "Mine Maria Izabella Lehtsaar “Armastavates kätes”.")
 
 ![](https://www.artun.ee/app/uploads/2026/04/stickers_A5.png)
 

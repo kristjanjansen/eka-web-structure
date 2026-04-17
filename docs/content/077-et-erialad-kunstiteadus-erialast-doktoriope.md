@@ -2,7 +2,7 @@
 title: "Doktoriõpe — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/erialad/kunstiteadus/erialast/doktoriope
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Erialad](https://www.artun.ee/et/erialad/ "Mine Erialad.")[Kunstiteadus ja visuaalkultuur\_](https://www.artun.ee/et/erialad/kunstiteadus/ "Mine Kunstiteadus ja visuaalkultuur_.")[Õppimine](https://www.artun.ee/et/erialad/kunstiteadus/erialast/ "Mine Õppimine.")[Doktoriõpe](https://www.artun.ee/et/erialad/kunstiteadus/erialast/doktoriope/ "Mine Doktoriõpe.")

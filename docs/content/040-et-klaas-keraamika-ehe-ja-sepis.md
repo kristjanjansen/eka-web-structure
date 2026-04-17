@@ -2,7 +2,7 @@
 title: "Klaas, keraamika, ehe ja sepis — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/klaas-keraamika-ehe-ja-sepis
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Klaas, keraamika, ehe ja sepis](https://www.artun.ee/et/klaas-keraamika-ehe-ja-sepis/ "Mine Klaas, keraamika, ehe ja sepis.")[Klaas, keraamika, ehe ja sepis](https://www.artun.ee/et/klaas-keraamika-ehe-ja-sepis/ulevaade/ "Mine Klaas, keraamika, ehe ja sepis.")

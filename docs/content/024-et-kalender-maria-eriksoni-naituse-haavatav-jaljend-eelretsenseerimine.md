@@ -2,7 +2,7 @@
 title: "Maria Eriksoni näituse „Haavatav jäljend“ eelretsenseerimine — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/kalender/maria-eriksoni-naituse-haavatav-jaljend-eelretsenseerimine
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Erialad](https://www.artun.ee/et/kategooria/erialad/?post_type=eka_calendar "Mine rubriigi Erialad arhiivi.")[Doktorikool](https://www.artun.ee/et/kategooria/erialad/doktorikool-erialad/?post_type=eka_calendar "Mine rubriigi Doktorikool arhiivi.")[Maria Eriksoni näituse „Haavatav jäljend“ eelretsenseerimine](https://www.artun.ee/et/kalender/maria-eriksoni-naituse-haavatav-jaljend-eelretsenseerimine/ "Mine Maria Eriksoni näituse „Haavatav jäljend“ eelretsenseerimine.")

@@ -136,6 +136,27 @@ function parsePage(html, baseUrl) {
   const imageCount = $('img').length;
   const estimatedHeight = Math.round(Math.max(400, textLength * 0.15 + imageCount * 300));
 
+  // Breadcrumbs (before DOM mutation)
+  const breadcrumbs = [];
+  $('.breadcrumbs span[property="itemListElement"]').each((_, el) => {
+    const name = $(el).find('span[property="name"]').text().trim();
+    if (name) breadcrumbs.push(name);
+  });
+  if (breadcrumbs.length > 0 && breadcrumbs[breadcrumbs.length - 1] === title.split('—')[0].trim()) {
+    breadcrumbs.pop();
+  }
+
+  // Links (before DOM mutation — nav/sidebar get removed for markdown)
+  const internalLinks = [];
+  const externalLinks = [];
+  $('a[href]').each((_, el) => {
+    const href = $(el).attr('href');
+    if (!href) return;
+    const result = classifyUrl(href, baseUrl);
+    if (result.type === 'internal-et') internalLinks.push(result.normalized);
+    else if (result.type === 'external') externalLinks.push(result.normalized);
+  });
+
   // Main content → markdown
   const contentSelectors = [
     'main', 'article', '.entry-content', '.post-content',
@@ -166,27 +187,6 @@ function parsePage(html, baseUrl) {
       meta.description = lines[0].replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').trim().slice(0, 200);
     }
   }
-
-  // Breadcrumbs
-  const breadcrumbs = [];
-  $('.breadcrumbs span[property="itemListElement"]').each((_, el) => {
-    const name = $(el).find('span[property="name"]').text().trim();
-    if (name) breadcrumbs.push(name);
-  });
-  if (breadcrumbs.length > 0 && breadcrumbs[breadcrumbs.length - 1] === title.split('—')[0].trim()) {
-    breadcrumbs.pop();
-  }
-
-  // Links
-  const internalLinks = [];
-  const externalLinks = [];
-  $('a[href]').each((_, el) => {
-    const href = $(el).attr('href');
-    if (!href) return;
-    const result = classifyUrl(href, baseUrl);
-    if (result.type === 'internal-et') internalLinks.push(result.normalized);
-    else if (result.type === 'external') externalLinks.push(result.normalized);
-  });
 
   return {
     title, meta, estimatedHeight, breadcrumbs, markdown,

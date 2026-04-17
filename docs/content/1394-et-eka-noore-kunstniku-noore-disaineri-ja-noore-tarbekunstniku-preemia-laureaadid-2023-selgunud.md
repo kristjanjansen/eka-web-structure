@@ -1,0 +1,45 @@
+---
+title: "EKA Noore kunstniku, Noore disaineri ja Noore tarbekunstniku preemia laureaadid 2023 selgunud! — Eesti Kunstiakadeemia"
+url: https://www.artun.ee/et/eka-noore-kunstniku-noore-disaineri-ja-noore-tarbekunstniku-preemia-laureaadid-2023-selgunud
+depth: 3
+date: 2026-04-17
+---
+
+[Akadeemia](https://www.artun.ee/et/akadeemia/ "Mine Akadeemia.")[Uudised](https://www.artun.ee/et/akadeemia/uudised/ "Mine Uudised.")[Erialad](https://www.artun.ee/et/kategooria/erialad/ "Mine rubriigi Erialad arhiivi.")[Disaini­­teaduskond](https://www.artun.ee/et/kategooria/erialad/disainiteaduskond/ "Mine rubriigi Disaini­­teaduskond arhiivi.")[EKA Noore kunstniku, Noore disaineri ja Noore tarbekunstniku preemia laureaadid 2023 selgunud!](https://www.artun.ee/et/eka-noore-kunstniku-noore-disaineri-ja-noore-tarbekunstniku-preemia-laureaadid-2023-selgunud/ "Mine EKA Noore kunstniku, Noore disaineri ja Noore tarbekunstniku preemia laureaadid 2023 selgunud!.")
+
+![](https://www.artun.ee/app/uploads/2023/06/Noore-kunstniku-preemia-laureaat-Tea-Lemberpuu-dekaan-rektor-ja-kultuuriminister_foto-Martin-Buschmann-900x900.jpg)
+
+###### EKA vabade kunstide teaduskonna dekaan Kirke Kangro, rektor Mart Kalm ja kultuuriminister Heidy Purga annavad maali tudeng Tea Lemberpuule preemia. Foto: Martin Buschmann
+
+**Eesti Kunstiakadeemia [lõputööde festivali TASE ’23](https://tase23.artun.ee/) avamise raames jagati 31. mail 2023. aasta Noore kunstniku, Noore disaineri ja Noore tarbekunstniku preemiad.** 
+
+Preemiad andis üle Eesti Vabariigi kultuuriminister **Heidy Purga**, Eesti Kunstiakadeemia rektor **Mart Kalm**, TASE ’23 lõputööde festivali korraldaja **Pire Sova**, EKA disainiteaduskonna ja vabade kunstide teaduskonna dekaanid ning žürilide liikmed.
+
+**Noore Kunstniku preemia magistri taseme laureaat** on kaasaegse kunsti tudeng **Samuel Lehikoinen**, kelle teoses kajastuvad läbi humoorika kerguse keerukad ja aktuaalsed teemad. Autor kasutab vaimukalt ja eneseirooniliselt ära nii rahvuslikke kui ka soolisi stereotüüpe. Veenev ruumilahendus ja kaasahaarav arvutimäng puudutavad sügavalt inimeksistentsi erinevaid nüansse kaasajal. Äramärkimise pälvivad kaasaegse kunsti tudeng **Liis Vares** põhjalikult läbitunnetatud ruumikasutuse ja koreograafilise strateegia rakendamise eest installatsioonikunstis ning kaasaegse kunsti tudeng **Annika Hint** betooni valatud alateadlike impulsside ja lapsepõlvemälestuste eest.
+
+**Noore Kunstniku preemia bakalaureuse taseme laureaadid** on graafika tudeng **Mats Johan Soosaar**, keda tunnustatakse eneseanalüütilise ja totaalse installatsiooni eest valusatel teemadel ning maali tudeng **Tea Lemberpuu**, kes pälvib preemia kontseptuaalse mõtlemise ja maali vahendite osava ühendamise eest. Äramärkimise pälvivad graafika tudeng **Pavel Dodatko** nö hullumeese punk-fantaasia eest laiendatud muusikavideo formaadis, graafika tudeng **Johanna Rannu** Väike-Õismäe sootsiumi igapäevaelus kogetud poeetika avamise eest ning installatsiooni ja skulptuuri tudeng **Lauri Lest** puhta ja lihtsa  installatiivse lahenduse eest. Komisjoni liikmeteks olid kunstiteadlane **Anders Härm** ja kunstnikud **Kirke Kangro, Krista Mölder, Anna Mari Liivrand** ja **Pire Sova**.
+
+Noore kunstniku magistri preemiaga kaasneb näitus **Hobusepea** või **Draakoni galeriis**.
+
+**Noore tarbekunstniku preemia magistri taseme võitjaks** sai ehte ja sepise eriala tudeng **Taavi Teevet**, tööga “Ridadevahelisel teelahkmel” (juhendajad Eve Margus ja Piret Hirv), mille keskmes on struktuuri ja süsteemiotsingud. Universumi võimaliku tajumise ja maailmade teelahkmetel langetatavate valikute kaardistamine. See on rännak inimteadvuse sügavusse, mille käigus üritatakse sõnastada midagi, mida ei saa sõnadesse panna, sest sõnu, mis suudaks närvi-impulssides kogetava kokku võtta, ei ole veel välja mõeldud. Žürii tõi Taavi Teeveti töö puhul välja “vastuvaidlemist mittesallivalt jõulise terviku, mis ühendab isikliku ja universaalse. Töö on viimistletud, kuid mitte klants. Teevet on läbitunnetatult veenev nii detailis kui tehnoloogiliselt ning on oma protestantlik-dramaatilises lavastuses meisterlik.”
+
+Ära märgiti ka ehte ja sepise tudengi **Liisbeth Kirsi** töö “Mu sõbrannad on mimmud” (juhendajad Piret Hirv ja Eve Margus) ja keraamika tudengi **Haeun Kim\`i** töö “Taid 2.0 Koostöö tehisintellektiga” (juhendaja Juss Heinsalu).
+
+**Noore tarbekunstniku preemia bakalaureuse taseme võitjaks** valiti moedisaini tudeng **Lisette Sivard** tööga “Kurvad maskotid katkistele inimestele” (juhendajad Rolands Pēterkops, Piret Puppart, Anu Samarüütel-Long). Teos pöörab tähelepanu meie igapäevasele jagatud ruumile, seal valitsevatele kuuluvusnormidele ja jõujoontele. Kellel lubatakse kuuluda, kes paneb paika kuuluvusnormid ning kellel on ligipääs võimule? Avaliku ruumi konfliktidest mõjutatud töö peegeldab ühtlasi ka moe kui meediumi piiratust laiahaardelisele ebavõrdsusele reageerimisel ning otsib ühisruumi demokraatlikku potentsiaali, vaadeldes seda kui kohta, kus etendatakse etendamata. Žürii tõi välja, et vabastava huumoriga puudutab töö kaasajal aktuaalset ja olulist teemat. Armasabitud olendid linnaruumis toovad probleemi isiklikult üldisele ja loovad korrastatud keskkonda hädavajaliku absurdi, et aidata märgata.
+
+Bakalaureuse töödest leidsid äramärkimist ehte ja sepise tudengi **Margus Elizarovi** “Synopsis” (juhendajad Eve Margus, Nils Hint, Piret Hirv, Urmas Lüüs) ja keraamika tudengi **Kadri Räisi** töö ”Las ma juhatan sind kohale” (juhendaja Laura Põld). Noore terbekunstniku preemia žürii koosseisu kuulusid tarbekunstnikud ja õppejõud **Maria Valdma-Härm, Ketli Tiitsar, Tanel Veenre** ja **Johanna Ulfsak**.
+
+**Noore disaineri preemia magistri taseme võitjaks** sai graafilise disaini üliõpilane **Carlo Canún** tööga „Infected Lexicon of Language (Nakatunud keeleleksikon)”, mis uurib ja eksperimenteerib keele kui vahendiga, millega kontrollime oma mõtteid ja seega ka reaalsust. Tööks on veebiarhiiv ja installatsioon, mis koondab sõnu ja termineid, et pakkuda välja uus sõnavara. “Nakatunud keeleleksikon” põhineb Canúni enda kogemusel heteronormatiivses, binaarses ja religioosses maailmas. Need sõnad, mis kõnnivad ringi t-särkidel kui liikuvatel plakatitel, lähtuvad tema enda unistustest, mälestustest ja fantaasiatest. Žürii leidis, et Canún annab oma lõputöö projektiga panuse marginaliseeritud gruppide keele, mõtte levikule ja mõistmisele. See on ladusalt argumenteeritud, põhjalik, nauditavalt vormistatud ja aktuaalse sotsiaale mõõtmega interdistsiplinaarne projekt. Žürii innustab Canúni projektiga edasi töötama ning arendama sellest isikunäituse. Ära märgiti ka tudengid **Violetta Riidas, Dina Aller, Oliver Long** ja **Anna Viik**.
+
+**Noore disaineri preemia preemia bakalaureuse taseme võitjaks** hinnati tootedisaini tudeng **Erik Heiki Veelmaa** tööga „Väikelinnad 2.0 disaini roll Eesti väikelinnade tuleviku kindlustamisel ja transpordi arengusuunad 2050. aastaks“ (juhendaja Janno Nõu), mis uurib Eesti väikelinnade kahanemist ning esitab visioone võimalikest arengusuundadest äärealastumise vältimiseks. Žürii leidis, et Veelmaa projekt on ambitsioonikas, ühiskondlikult oluline ning paistab silma süsteemse teostuse ja uuendusliku lähenemisega. See teenusedisaini näide võiks leida kõlapinda nii kohalikul kui ka rahvusvahelisel väljal. Ära märgiti ka graafilise disaini tudeng **Magnus Harjak** ja tootedisaini tudeng **Kaspar Timm**. Noore disaineri preemia žüriisse kuulusid disainerid **Sandra Nuut, Kristjan Mändmaa, Pent Talvet, Hans Henrik Schwarz, Geroli Peedu, Margus Tamm** ja **Maarika Karm**.
+
+Noore tarbekunstniku magistri preemiaga kaasneb näitus **HOP galeriis**.
+
+##### Jaga sõpradega:
+
+[](http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-noore-kunstniku-noore-disaineri-ja-noore-tarbekunstniku-preemia-laureaadid-2023-selgunud%2F&title=EKA+Noore+kunstniku%2C+Noore+disaineri+ja+Noore+tarbekunstniku+preemia+laureaadid+2023+selgunud%21 "Share on Facebook")[](http://twitter.com/share?text=EKA+Noore+kunstniku%2C+Noore+disaineri+ja+Noore+tarbekunstniku+preemia+laureaadid+2023+selgunud%21&url=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-noore-kunstniku-noore-disaineri-ja-noore-tarbekunstniku-preemia-laureaadid-2023-selgunud%2F&via=kunstiakadeemia "Share on Twitter")[](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-noore-kunstniku-noore-disaineri-ja-noore-tarbekunstniku-preemia-laureaadid-2023-selgunud%2F&title=EKA+Noore+kunstniku%2C+Noore+disaineri+ja+Noore+tarbekunstniku+preemia+laureaadid+2023+selgunud%21&source=https%3A%2F%2Fwww.artun.ee%2Fwp "Share on LinkedIn")
+
+Postitas Andres Lõo  
+Viimati muudetud 1\. juuni 2023
+
+[Disaini­­teaduskond](https://www.artun.ee/et/akadeemia/teaduskonnad/disainiteaduskond/)[Graafika](https://www.artun.ee/et/erialad/graafika/ulevaade/)[Kunsti­kultuuri teaduskond](https://www.artun.ee/et/akadeemia/teaduskonnad/kunstikultuuri-teaduskond/)[TASE](https://www.artun.ee/et/kategooria/tugistruktuurid/galerii/tase/)[Vabade kunstide teaduskond](https://www.artun.ee/et/kategooria/erialad/vabade-kunstide-teaduskond/)

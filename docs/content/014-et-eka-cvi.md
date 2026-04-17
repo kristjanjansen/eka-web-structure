@@ -2,7 +2,7 @@
 title: "EKA visuaalne identiteet — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/eka-cvi
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [EKA visuaalne identiteet](https://www.artun.ee/et/eka-cvi/ "Mine EKA visuaalne identiteet.")

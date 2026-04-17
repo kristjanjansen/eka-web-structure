@@ -2,7 +2,7 @@
 title: "EKA Galerii — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/eka-naitused
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [EKA Galerii](https://www.artun.ee/et/eka-naitused/ "Mine EKA Galerii.")[Hetkel galeriis](https://www.artun.ee/et/eka-naitused/hetkel-galeriis/ "Mine Hetkel galeriis.")

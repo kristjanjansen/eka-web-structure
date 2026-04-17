@@ -2,7 +2,7 @@
 title: "Kalender — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/oppimine/kalender
 depth: 2
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Kaardid](https://www.artun.ee/et/oppimine/kalender/kaardid/ "Mine Kaardid.")
@@ -10,6 +10,14 @@ date: 2026-04-16
 Kõik üritused Kõik üritused Akadeemiline kalenderArhitektuuriuudisedAvatud Akadeemia kursusedAvatud loengudEKA GaleriiKonkursid ja stipendiumidKoolitused töötajaleMuuseumNäitusedSisseastujaleTASETöötoadÜritused Näita üritusi
 
 ## Hetkel toimuv
+
+[![erikson\_remediation\_01](https://www.artun.ee/app/uploads/fly-images/204163/erikson_remediation_01-400x400-c.jpg)](https://www.artun.ee/et/kalender/maria-eriksoni-naituse-haavatav-jaljend-eelretsenseerimine/)
+
+[Maria Eriksoni näituse „Haavatav jäljend“ eelretsenseerimine](https://www.artun.ee/et/kalender/maria-eriksoni-naituse-haavatav-jaljend-eelretsenseerimine/)
+
+17.04.2026
+
+Doktorikool
 
 [![Öömaaeg](https://www.artun.ee/app/uploads/fly-images/203308/Oomaaeg-400x400-c.jpg)](https://www.artun.ee/et/kalender/etendus-oomaaeg/)
 
@@ -84,6 +92,14 @@ Graafika
 06.03.2026 - 15.05
 
 Graafika
+
+[![Paide kultuurimaja. Arhitekt Hans Kõll\_ Eesti Arhitektuurimuuseum SA.](https://www.artun.ee/app/uploads/fly-images/203390/Paide-kultuurimaja.-Arhitekt-Hans-Koll_-Eesti-Arhitektuurimuuseum-SA-400x400-c.jpg)](https://www.artun.ee/et/kalender/naitus-suur-saal-vaike-linn-postmodernistlikud-kultuurimajad-eestis-paide-muusika-ja-teatrimajas/)
+
+[Näitus “Suur saal, väike linn. Postmodernistlikud kultuurimajad Eestis” Paide Muusika- ja Teatrimajas](https://www.artun.ee/et/kalender/naitus-suur-saal-vaike-linn-postmodernistlikud-kultuurimajad-eestis-paide-muusika-ja-teatrimajas/)
+
+17.04.2026 - 15.05
+
+Muinsus­kaitse ja konserveerimine
 
 [![FB-Tähtedega](https://www.artun.ee/app/uploads/fly-images/201490/FB-Tahtedega-400x400-c.jpg)](https://www.artun.ee/et/kalender/tantsud-tahtedega-eka-valigaleriis-2026/)
 

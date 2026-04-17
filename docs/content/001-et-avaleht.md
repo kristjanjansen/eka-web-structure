@@ -2,7 +2,7 @@
 title: "Eesti Kunstiakadeemia — Kunst Disain Arhitektuur Teadus"
 url: https://www.artun.ee/et/avaleht
 depth: 0
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 -   [
@@ -37,11 +37,9 @@ date: 2026-04-16
 
 17.04 — 15.05.2026
 
-[![Paide kultuurimaja. Arhitekt Hans Kõll\_ Eesti Arhitektuurimuuseum SA.](https://www.artun.ee/app/uploads/fly-images/203390/Paide-kultuurimaja.-Arhitekt-Hans-Koll_-Eesti-Arhitektuurimuuseum-SA-500x500-c.jpg)](https://www.artun.ee/et/kalender/naitus-suur-saal-vaike-linn-postmodernistlikud-kultuurimajad-eestis-paide-muusika-ja-teatrimajas/)
+[![ManifestoofLightness\_Team\_AugustKilmi\_1](https://www.artun.ee/app/uploads/fly-images/204305/ManifestoofLightness_Team_AugustKilmi_1-500x500-c.jpg)](https://www.artun.ee/et/kumme-eka-tudengit-debuteerivad-milaano-mooblimessil/)
 
-## [Näitus "Suur saal, väike linn. Postmodernistlikud kultuurimajad Eestis" Paide Muusika- ja Teatrimajas](https://www.artun.ee/et/kalender/naitus-suur-saal-vaike-linn-postmodernistlikud-kultuurimajad-eestis-paide-muusika-ja-teatrimajas/)
-
-17.04 — 15.05.2026
+## [Kümme EKA tudengit debüteerivad Milaano mööblimessil](https://www.artun.ee/et/kumme-eka-tudengit-debuteerivad-milaano-mooblimessil/)
 
 [Animatsioon](https://www.artun.ee/et/erialad/animatsioon/)
 
@@ -627,7 +625,7 @@ Installatsioon ja skulptuur
 
 ](https://www.youtube.com/channel/UCL0V3XR8iViHNtRYDK5G1yQ)
 
-EKA Tööstus- ja digitootedisain
+EKA welcomes you
 
 [Vaata kõiki](https://www.youtube.com/channel/UCL0V3XR8iViHNtRYDK5G1yQ)
 

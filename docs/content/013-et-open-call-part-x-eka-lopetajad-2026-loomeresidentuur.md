@@ -2,7 +2,7 @@
 title: "OPEN CALL | PART × EKA lõpetajad 2026 loomeresidentuur — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/open-call-part-x-eka-lopetajad-2026-loomeresidentuur
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Akadeemia](https://www.artun.ee/et/akadeemia/ "Mine Akadeemia.")[Uudised](https://www.artun.ee/et/akadeemia/uudised/ "Mine Uudised.")[Erialad](https://www.artun.ee/et/kategooria/erialad/ "Mine rubriigi Erialad arhiivi.")[Vabade kunstide teaduskond](https://www.artun.ee/et/kategooria/erialad/vabade-kunstide-teaduskond/ "Mine rubriigi Vabade kunstide teaduskond arhiivi.")[Installatsioon ja skulptuur](https://www.artun.ee/et/kategooria/erialad/vabade-kunstide-teaduskond/installatsioon-ja-skulptuur/ "Mine rubriigi Installatsioon ja skulptuur arhiivi.")[OPEN CALL | PART × EKA lõpetajad 2026 loomeresidentuur](https://www.artun.ee/et/open-call-part-x-eka-lopetajad-2026-loomeresidentuur/ "Mine OPEN CALL | PART × EKA lõpetajad 2026 loomeresidentuur.")

@@ -1,0 +1,45 @@
+---
+title: "„Raamatuillustratsiooni kursuse lõputöid 2018—2024“ EKA Väligaleriis 10.12.2024–2.02.2025"
+url: https://www.artun.ee/et/eka-avatud-akadeemia-raamatuillustratsiooni-naitus
+depth: 3
+date: 2026-04-17
+---
+
+[Akadeemia](https://www.artun.ee/et/akadeemia/ "Mine Akadeemia.")[Uudised](https://www.artun.ee/et/akadeemia/uudised/ "Mine Uudised.")[Erialad](https://www.artun.ee/et/kategooria/erialad/ "Mine rubriigi Erialad arhiivi.")[Avatud akadeemia](https://www.artun.ee/et/kategooria/erialad/avatud-akadeemia/ "Mine rubriigi Avatud akadeemia arhiivi.")[„Raamatuillustratsiooni kursuse lõputöid 2018—2024“ EKA Väligaleriis 10.12.2024–2.02.2025](https://www.artun.ee/et/eka-avatud-akadeemia-raamatuillustratsiooni-naitus/ "Mine „Raamatuillustratsiooni kursuse lõputöid 2018—2024“ EKA Väligaleriis 10.12.2024–2.02.2025.")
+
+![](https://www.artun.ee/app/uploads/2024/12/image-3.png)
+
+###### Autor: Maria Kooskora
+
+**Raamatuillustratsiooni kursuse lõputöid 2018—2024** **Näitus EKA väligaleriis, Kotzebue 1, Tallinn** **10\. detsember 2024 kuni 2. veebruar 2025** Raamatuillustratsiooni põhikursuse lõputööde näitus, kus esitletakse valikut õppurite töödest 2018-2024. Näitusel esinevad: Ragne Hoog, Maria Kooskora, Kristina Tort, Kai Kiudsoo-Värv, Irmeli Vaher-Jaanson, Katrin Rasmann, Kristel Tereping, Liina Maadla, Kätlin Simson, Alexandra Lisette Pere, Alisa Ivanova, Madli Lavin, Triina Britt Aumere. Raamatuillustratsiooni kursus on suunatud illustratsioonist ja illustraatori tööst huvitatud täiskasvanud õppijale, kelle eesmärk on professionaalne areng. Õppetöö käigus tutvustatakse valdkonna põhioskusi ja -teadmisi ning arendatakse isikupärast kunstnikukäekirja. Kursusel osalejad saavad teadmisi illustratsioonist ja esmase kogemuse raamatu tegemisel. Kursuslasi juhendavad Anne Pikkov ja Kertu Sillaste, Kadi Kurema, Kristina Tort,  Mark-Antonius Puhkan ja Anneliis Lepp. Lisaks mitmed külalisõppejõud. Näituse on kujundanud Anna Kaarma. „Alati on avatud akadeemias kursustel osalejaid erinevatelt elualadelt, erineva vanuse ja elukogemusega. Igaüks toob tundidesse oma oskused, teadmised ja tahtmised ning rikastab sellega kõigi õppimiskogemust. Raamatuillustratsiooni kursusel osalejad on mind alati rabanud oma heade ideede ja tahtekindlusega. Hea meel on selle üle, et paljudes lõputöödes on professionaalsust ja isikupära”, ütleb õppekava juht Kertu Sillaste “Raamatuillustratsiooni saab õppida vähestes kohtades, mistõttu on meie kursus Kunstiakadeemias unikaalne võimalus tegeleda oma illustraatori käekirja arendamisega. See on koht, kus sõnad ja pilt kohtuvad ning saab kujundada oma esimese raamatu. Kursusel valitseb inspireeriv ja toetav õhkkond, kus jagatakse ideid, õpitakse üksteiselt ning tehakse tööd suure auruga.”, lisab õppekava juht Anne Pikkov **Kursuslaste tagasisidest loeme, et** Kaia: „Kõikidel juhendajatel oli nii palju, mida pakkuda ja jagada ja nad tegid seda sellisest entusiasmist, et õppijana sai tunda end väärtuslikuna.” Alisa: „Kursus aitas oluliselt välja isiklikust mugavustsoonist ning andis enesekindlust ja usku oma võimetesse. Lisaks aitas erinevate tehnikate ja stiilide katsetamine jõuda lähemale oma isiklikule stiilile. See oli midagi, millega eelnevalt mures olin. Tahaksin kindlasti esile tuua seda, kuidas saime kursuse jooksul kasulikku tagasisidet ja ka seda, kuidas õppejõud olid meile ka väljaspool loenguaega toeks nii meilitsi kui ka näiteks Facebooki grupis. Juhendajate huvi meie töö ja meie ideede vastu oli motiveeriv ja aitas leida paremaid lahendusi erinevate ülesannete puhul. Lii „Mulle meeldis, et kursusel oli palju praktilisi ülesandeid, mis nõudsid iseseisvat tööd ja enesesundi. See aitas kaasa arengule ja oli ka hästi tagasisidestatud. Samuti avardas pilti tohutu näidete hulk erinevatest stiilidest, tehnikatest ja visuaalse mõtlemise viisidest. Hästi sobis, et tunnid toimusid üks kord nädalas laupäeviti, kuna see võimaldas ka kaugemalt kohal käia. Plussiks oli ka see, et juhendajaid oli mitu, kes igaüks andsid oma vaatenurga. Kohtumised oma ala praktikutega väljastpoolt EKAt olid samuti väga inspireerivad.” Kandideerimine järgmise aasta kursusele algab 1. juunil [EKA avatud akadeemia kodulehel](https://www.artun.ee/et/avatud-akadeemia/).
+
+[![01\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183127/01_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/01_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![02\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183126/02_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/02_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![03\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183125/03_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/03_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![04\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183124/04_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/04_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![05\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183123/05_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/05_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![06\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183122/06_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/06_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![07\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183121/07_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/07_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![08\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183120/08_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/08_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![09\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183119/09_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/09_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+[![10\_Avatud akadeemia raamatuillustratsioon\_EKA Valigalerii\_2024\_foto Ako Allik](https://www.artun.ee/app/uploads/fly-images/183118/10_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-scaled-300x300-c.jpg)](https://www.artun.ee/app/uploads/2025/01/10_Avatud-akadeemia-raamatuillustratsioon_EKA-Valigalerii_2024_foto-Ako-Allik-900x600.jpg)
+
+###### Fotod: Ako Allik
+
+##### Jaga sõpradega:
+
+[](http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-avatud-akadeemia-raamatuillustratsiooni-naitus%2F&title=%E2%80%9ERaamatuillustratsiooni+kursuse+l%C3%B5put%C3%B6id+2018%E2%80%942024%E2%80%9C+EKA+V%C3%A4ligaleriis+10.12.2024%E2%80%932.02.2025 "Share on Facebook")[](http://twitter.com/share?text=%E2%80%9ERaamatuillustratsiooni+kursuse+l%C3%B5put%C3%B6id+2018%E2%80%942024%E2%80%9C+EKA+V%C3%A4ligaleriis+10.12.2024%E2%80%932.02.2025&url=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-avatud-akadeemia-raamatuillustratsiooni-naitus%2F&via=kunstiakadeemia "Share on Twitter")[](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.artun.ee%2Fet%2Feka-avatud-akadeemia-raamatuillustratsiooni-naitus%2F&title=%E2%80%9ERaamatuillustratsiooni+kursuse+l%C3%B5put%C3%B6id+2018%E2%80%942024%E2%80%9C+EKA+V%C3%A4ligaleriis+10.12.2024%E2%80%932.02.2025&source=https%3A%2F%2Fwww.artun.ee%2Fwp "Share on LinkedIn")
+
+Postitas Elise Eimre  
+Viimati muudetud 9\. detsember 2024
+
+[Avatud akadeemia](https://www.artun.ee/et/avatud-akadeemia/avatud-akadeemiast/)

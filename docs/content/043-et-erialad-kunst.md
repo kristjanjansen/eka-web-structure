@@ -2,7 +2,7 @@
 title: "Kunst — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/erialad/kunst
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Erialad](https://www.artun.ee/et/erialad/ "Mine Erialad.")[Kunst](https://www.artun.ee/et/erialad/kunst/ "Mine Kunst.")

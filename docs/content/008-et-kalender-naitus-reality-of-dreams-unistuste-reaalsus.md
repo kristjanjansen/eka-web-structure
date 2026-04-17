@@ -2,10 +2,10 @@
 title: "Näitus “Reality of Dreams” (Unistuste reaalsus) — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/kalender/naitus-reality-of-dreams-unistuste-reaalsus
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
-[Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Eesti](https://www.artun.ee/et/?post_type=eka_calendar "Go to the Eesti Keel archives.")[Näitus “Reality of Dreams” (Unistuste reaalsus)](https://www.artun.ee/et/kalender/naitus-reality-of-dreams-unistuste-reaalsus/ "Mine Näitus “Reality of Dreams” (Unistuste reaalsus).")
+[Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Näitus “Reality of Dreams” (Unistuste reaalsus)](https://www.artun.ee/et/kalender/naitus-reality-of-dreams-unistuste-reaalsus/ "Mine Näitus “Reality of Dreams” (Unistuste reaalsus).")
 
 **Asukoht:**  
 OKAPI galerii, Niguliste tn 2, Tallinn

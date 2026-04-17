@@ -2,7 +2,7 @@
 title: "Installatsioon ja skulptuur — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/erialad/installatsioon-ja-skulptuur
 depth: 1
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Erialad](https://www.artun.ee/et/erialad/ "Mine Erialad.")[Installatsioon ja skulptuur](https://www.artun.ee/et/erialad/installatsioon-ja-skulptuur/ "Mine Installatsioon ja skulptuur.")[Installatsioon ja skulptuur](https://www.artun.ee/et/erialad/installatsioon-ja-skulptuur/ulevaade/ "Mine Installatsioon ja skulptuur.")
@@ -119,9 +119,9 @@ VAJAME ROHKEM SISERUUME EKA Galerii alumisel korrusel 9.01.–15.02.2026 Avatud 
 
 ## [Tudengite tööd](https://www.artun.ee/et/kategooria/erialad/vabade-kunstide-teaduskond/installatsioon-ja-skulptuur/?post_type=eka_project)
 
-[![taavi\_rei\_too-on-tehtud](https://www.artun.ee/app/uploads/fly-images/43209/taavireitoo-on-tehtud-300x300-c.jpg)](https://www.artun.ee/et/galerii/tood/)
-
 [![isfag\_1](https://www.artun.ee/app/uploads/fly-images/42175/ISFAG1-300x300-c.jpg)](https://www.artun.ee/et/galerii/isfag/)
+
+[![taavi\_rei\_too-on-tehtud](https://www.artun.ee/app/uploads/fly-images/43209/taavireitoo-on-tehtud-300x300-c.jpg)](https://www.artun.ee/et/galerii/tood/)
 
 ## Lisainfo
 

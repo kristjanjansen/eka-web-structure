@@ -2,7 +2,7 @@
 title: "Rubriik: Erialad — Eesti Kunstiakadeemia"
 url: https://www.artun.ee/et/kategooria/erialad?post_type=eka_calendar
 depth: 2
-date: 2026-04-16
+date: 2026-04-17
 ---
 
 [Õppimine](https://www.artun.ee/et/oppimine/ "Mine Õppimine.")[Kalender](https://www.artun.ee/et/oppimine/kalender/ "Mine Kalender.")[Erialad](https://www.artun.ee/et/kategooria/erialad/?post_type=eka_calendar "Mine rubriigi Erialad arhiivi.")
