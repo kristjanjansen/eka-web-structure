@@ -691,9 +691,9 @@ document.getElementById('btn-fit').click();
 </html>`;
 }
 
-// Run directly: node src/visualization.js
+// Run directly: node src/vis.js
 import { argv } from 'process';
-if (argv[1]?.endsWith('visualization.js')) {
+if (argv[1]?.endsWith('vis.js')) {
   import('fs').then(({ readFileSync, writeFileSync }) => {
     const sitemap = JSON.parse(readFileSync('docs/sitemap.json', 'utf8'));
     writeFileSync('docs/index.html', generateHtml(sitemap));
