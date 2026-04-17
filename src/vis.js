@@ -32,7 +32,7 @@ export function generateHtml(sitemap) {
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    background: #aaa;
+    background: #c0c0c0;
     color: #000;
     font-family: 'ITCFranklinGothic', 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     overflow: hidden;
@@ -510,7 +510,7 @@ function render() {
 
   // Medium gray bg + dot grid
   bgCtx.clearRect(0, 0, w, h);
-  bgCtx.fillStyle = '#aaa';
+  bgCtx.fillStyle = '#c0c0c0';
   bgCtx.fillRect(0, 0, w, h);
 
   const dotSpacing = 24;
