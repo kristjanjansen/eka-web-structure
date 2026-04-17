@@ -119,6 +119,12 @@ function norm(url) { return normalizeUrl(url) || url; }
 
 // ─── Shared HTML parser ───
 
+function stripSecrets(str) {
+  return str
+    .replace(/AWSAccessKeyId=[A-Z0-9]+/g, 'AWSAccessKeyId=REDACTED')
+    .replace(/AKIA[A-Z0-9]{16}/g, 'REDACTED_KEY');
+}
+
 function parsePage(html, baseUrl) {
   const $ = load(html);
   const title = $('title').first().text().trim();
@@ -153,8 +159,8 @@ function parsePage(html, baseUrl) {
     const href = $(el).attr('href');
     if (!href) return;
     const result = classifyUrl(href, baseUrl);
-    if (result.type === 'internal-et') internalLinks.push(result.normalized);
-    else if (result.type === 'external') externalLinks.push(result.normalized);
+    if (result.type === 'internal-et') internalLinks.push(stripSecrets(result.normalized));
+    else if (result.type === 'external') externalLinks.push(stripSecrets(result.normalized));
   });
 
   // Main content → markdown
@@ -178,7 +184,7 @@ function parsePage(html, baseUrl) {
   }
 
   let markdown = '';
-  try { markdown = turndown.turndown(contentHtml).trim().replace(/\n{3,}/g, '\n\n'); } catch {}
+  try { markdown = stripSecrets(turndown.turndown(contentHtml).trim().replace(/\n{3,}/g, '\n\n')); } catch {}
 
   // Fallback description from first paragraph
   if (!meta.description && markdown) {
