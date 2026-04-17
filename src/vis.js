@@ -523,7 +523,10 @@ function render() {
   const cx = w / 2, cy = h / 2;
 
   // Medium gray bg + dot grid
-  bgCtx.clearRect(0, 0, w, h);
+  const dpr = window.devicePixelRatio || 1;
+  bgCtx.setTransform(1, 0, 0, 1, 0, 0);
+  bgCtx.clearRect(0, 0, bgCanvas.width, bgCanvas.height);
+  bgCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
   bgCtx.fillStyle = '#c0c0c0';
   bgCtx.fillRect(0, 0, w, h);
 
@@ -542,7 +545,9 @@ function render() {
   }
 
   // Cluster regions
-  clCtx.clearRect(0, 0, w, h);
+  clCtx.setTransform(1, 0, 0, 1, 0, 0);
+  clCtx.clearRect(0, 0, clustersCanvas.width, clustersCanvas.height);
+  clCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
   clusterNames.forEach(name => {
     if (dimmedClusters.has(name)) return;
