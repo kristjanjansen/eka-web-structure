@@ -383,11 +383,12 @@ function layoutClusters() {
     shelfMaxH = Math.max(shelfMaxH, rect.h);
   });
 
-  // Place Orvud far right, top-aligned
+  // Place Orvud far right, aligned to first row of clusters (below Avaleht)
   if (orvudRect) {
     let maxX = 0;
     positions.forEach(p => { maxX = Math.max(maxX, p.x + p.rect.w); });
-    positions.set(orvudRect.name, { x: maxX + CLUSTER_GAP * 2, y: 0, rect: orvudRect });
+    const firstRowY = avalehtRect ? avalehtRect.h + CLUSTER_GAP : 0;
+    positions.set(orvudRect.name, { x: maxX + CLUSTER_GAP * 2, y: firstRowY, rect: orvudRect });
   }
 
   // Center
